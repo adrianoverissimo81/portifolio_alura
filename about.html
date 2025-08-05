@@ -1,20 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt - br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre mim</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 </head>
+
 <body>
     <header>
-    <nav class="cabecalho-nav">
-        <a class="Menu_link" href="index.html">Home</a>
-        <a class="Menu_link" href="about.html">Sobre mim</a>
-    </nav> 
+        <nav class="cabecalho-nav">
+            <a class="Menu_link" href="index.html">Home</a>
+            <a class="Menu_link" href="about.html">Sobre mim</a>
+        </nav>
     </header>
-    <h1>Sobre mim</h1>
-    <p>Olá! Sou Adriano Veríssimo, desenvolvedor Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
-    <h2>Minhas Redes Sociais</h2>
-    
+    <main class="apresentacao">
+        <section class="apresentacao-conteudo">
+            <div class="row">
+                <div class="apresentacao-conteudo-botoes">
+                    <h2 class="apresentacao-conteudo-titulo">Sobre Mim</h2>
+                    <p class="apresentacao-conteudo-texto">
+                        Olá! Sou <strong>Adriano Veríssimo</strong>, desenvolvedor Front-end com especialidade em
+                        <strong>React, HTML e CSS</strong>. Ajudo pequenos negócios e designers a transformar boas
+                        ideias em experiências digitais incríveis, com foco em qualidade e usabilidade.
+                    </p>
+                </div>
+
+                <!-- Formação -->
+                <div class="col-md-6 mb-4">
+                    <h3 class="fw-bold">Formação Acadêmica</h3>
+                    <ul>
+                        <li>Curso Superior em <strong>Análise e Desenvolvimento de Sistemas</strong> - FACINT (último
+                            ano)</li>
+                    </ul>
+                </div>
+
+                <!-- Experiência -->
+                <div class="col-md-6 mb-4">
+                    <h3 class="fw-bold">Experiência Profissional</h3>
+                    <ul>
+                        <li><strong>Santa Casa de Misericórdia de Itabuna</strong> - Analista de Suporte de TI</li>
+                        <li>Atuação com ferramentas: Oracle MV, MV Editor, Report Designer</li>
+                    </ul>
+                </div>
+
+                <!-- Cursos -->
+                <div class="col-md-12">
+                    <h3 class="fw-bold">Cursos Complementares</h3>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul>
+                                <li><strong>Fundação Bradesco</strong> - Banco de Dados, Python, Power BI</li>
+                                <li><strong>Alura</strong> - HTML, CSS, JavaScript, Inteligência Artificial</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li><strong>Cisco Networking Academy</strong> - JavaScript Essentials 1 e 2 (em
+                                    andamento)</li>
+                                <li><strong>Udemy</strong> - Python, HTML e CSS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chamada para ação -->
+                <div class="col-12 text-center mt-5">
+                    <h4 class="fw-bold">Vamos conversar?</h4>
+                    <p class="fs-5">Se você tem um projeto ou ideia e quer colocá-lo em prática com qualidade e
+                        dedicação, entre em contato!</p>
+                </div>
+            </div>
+        </section>
+        <img src="file1.png" alt="Imagem de Adriano Veríssimo aprendendo">
+
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvedor Front-end</p>
+        <p>Adriano Veríssimo</p>
+        <p>E-mail: <a href="mailto:borgesdrick@gmail.com">borgesdrick@gmail.com</a></p>
+    </footer>
+
 </body>
+
 </html>

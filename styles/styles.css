@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Bitcount+Prop+Double:wght@100..900&family=Montserrat&display=swap');
 
+:root {
+   --cor--primaria: #000000;
+   --cor--secundaria: #f6f6f6;
+   --cor--terciaria: #00c2ff;
+   --cor--quartenaria: #272727; /*(fundo do botão)*/
+   --cor--quintenaria: #0a192f; /*(houve)*/
+
+
+   --fonte--primaria: 'Korona One', sans-serif;
+   --fonte--secundaria: 'Montserrat', sans-serif;
+}
 
 * {
     margin: 0;
@@ -10,8 +21,8 @@ body {
     /* height: 100vh; */
     box-sizing: border-box;
     /* background: linear-gradient(145deg, #0a192f, #122740); */
-    color: #f6f6f6;
-    background-color: #000000 ; 
+    color: var(--cor--secundaria);
+    background-color: var(--cor--primaria); 
  }
 
  .cabecalho {
@@ -25,10 +36,10 @@ body {
  }
 
  .Menu_link {
-    font-family: 'korona one', sans-serif;
+    font-family: var(--fonte--primaria);
     font-weight: 400px;
     font-size: 24px;
-    color: #00C2FF;
+    color: var(--cor--terciaria);
      text-decoration: none;
  }
 
@@ -50,22 +61,22 @@ body {
 
  .apresentacao-conteudo-titulo {
     font-size: 36px;
-    font-family: 'korona one', sans-serif;
+    font-family: var(--fonte--primaria);
     /* font-weight: 400px; */
 
  }
 
  .titulo-destaque {
-    color: #00C2FF ;
+    color: var(--cor--terciaria);
     font-weight: bold;
     font-size: 48px;
-    font-family: 'korona one', sans-serif;
+    font-family: var(--fonte--primaria);
     font-weight: 400px;
  }
 
  .apresentacao-conteudo-texto {
     font-size: 25px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonte--secundaria);
     font-weight: 600;
  }
 
@@ -78,7 +89,7 @@ body {
  }
 
  .Titulo-botoes {
-   font-family: 'korona one', sans-serif;
+   font-family: var(--fonte--primaria);
    font-weight: 400px;
    font-size: 24px;
  }
@@ -87,7 +98,7 @@ body {
    display: flex;
    justify-content: center;
    gap: 5px;
-   border: 3px solid #00C2FF;
+   border: 3px solid var(--cor--terciaria); /* cor da borda */
    width: 378px;
    text-align: center;
    border-radius: 8px;
@@ -95,13 +106,13 @@ body {
    font-weight: 600;
    padding: 21.5px 0;
    text-decoration: none; 
-   color: #f6f6f6; /* cor do texto */
-   font-family: "Montserrat", sans-serif;
+   color: var(--cor--secundaria); /* cor do texto */
+   font-family: var(--fonte--secundaria);
   /* display: inline-block; garante que a borda apareça */
 }
 
 .botoes_link:hover {
-   background-color: #272727; /* cor de fundo ao passar o mouse */
+   background-color: var(--cor--quartenaria); /* cor de fundo ao passar o mouse */
    transition: 0.3s;
  }
 
@@ -114,9 +125,9 @@ body {
  .rodape {
     text-align: center;
     padding:  26px;
-    color: #f6f6f6;
-    background-color: #0a192f;
-    font-family: "Montserrat", sans-serif;
+    color: var(--cor--secundaria);
+    background-color: var(--cor--quintenaria);
+    font-family: var(--fonte--secundaria);
     font-size: 20px;
     font-weight: 400px;
  }
