@@ -37,7 +37,7 @@ body {
 
  .Menu_link {
     font-family: var(--fonte--primaria);
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 24px;
     color: var(--cor--terciaria);
      text-decoration: none;
