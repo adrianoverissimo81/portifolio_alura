@@ -131,3 +131,21 @@ body {
     font-size: 20px;
     font-weight: 400px;
  }
+
+ .pagina-about .apresentacao-conteudo-titulo {
+  font-size: 42px;
+  color: var(--cor--secundaria);
+}
+
+.pagina-about .apresentacao-conteudo-texto {
+  font-size: 23px;
+  color: var(--cor--secundaria);
+  font-weight: 400;
+  font-family: var(--fonte--primaria);
+}
+
+.pagina-about .titulo-destaque {
+  font-size: 29px;
+  color: var(--cor--terciaria);
+}
+
